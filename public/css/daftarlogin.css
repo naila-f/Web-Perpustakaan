@@ -1,0 +1,59 @@
+body {
+   background: -webkit-linear-gradient(bottom, #4e73df, #6610f2);
+   background-repeat: no-repeat;
+}
+ .card {
+    background: #fbfbfb;
+    border-radius: 8px;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 410px;
+    margin: 6rem auto 9.4rem auto;
+    width: 329px;
+}
+.card-register {
+   background: #fbfbfb;
+   border-radius: 8px;
+   box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+   height: 575px;
+   margin: 2.5rem auto 2rem auto;
+   width: 340px;
+}
+ .card-header {
+    font-family: "Raleway Thin", sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 23px;
+    padding-top: 13px;
+    text-align: center;
+  }
+ .underline-title {
+    background: -webkit-linear-gradient(right, #6f42c1, #e83e8c);
+    height: 2px;
+    margin: 0.5rem auto 0 auto;
+    width: 89px;
+  }
+  
+  .submit {
+   background: -webkit-linear-gradient(right, #6f42c1, #e83e8c);
+   border: none;
+   border-radius: 21px;
+   box-shadow: 0px 1px 8px #6610f2;
+   cursor: pointer;
+   color: white;
+   font-family: "Raleway SemiBold", sans-serif;
+   height: 35px;
+   margin: 8px 70px;
+   margin-top: 8px;
+   transition: 0.25s;
+   width: 150px;
+
+} 
+.submit:hover {
+   background: -webkit-linear-gradient(right, #3b108a, #9e1254);
+   box-shadow: 0px 1px 8px #6610f2;
+}
+a {
+   text-decoration: none;
+}
+.text-center{
+   font-size: 12px;
+}

@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Login</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel ="stylesheet" href="css/daftarlogin.css">
 </head>
 <body>
     <div class="container">
         <div class="col-md-4 offset-md-4 mt-5">
             <div class="card">
                 <div class="card-header">
-                    <h3 class="text-center">Form Login</h3>
+                    <h3>Form Login</h3>
+                    <div class="underline-title"></div>
                 </div>
                 <form action="{{ route('login') }}" method="post">
                 @csrf
@@ -50,7 +52,7 @@
                     </div>
                 </div>
                 <div class="card-footer">
-                    <button type="submit" class="btn btn-primary btn-block">Log In</button>
+                    <button type="submit" class="submit">Log In</button>
                     <p class="text-center">Belum punya akun? <a href="{{ route('register') }}">Register</a> sekarang!</p>
                 </div>
                 </form>
