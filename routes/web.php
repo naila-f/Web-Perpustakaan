@@ -15,6 +15,10 @@ use App\Http\Controllers\HomeController;
 |
 */
 
+Route::get('/index', function () {
+    return view('index', ["title" => "Index"]);
+});
+
 Route::get('/', [AuthController::class, 'showFormLogin'])->name('login');
 Route::get('login', [AuthController::class, 'showFormLogin'])->name('login');
 Route::post('login', [AuthController::class, 'login']);
