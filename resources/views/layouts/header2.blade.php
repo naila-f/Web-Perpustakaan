@@ -60,15 +60,15 @@
                   <li><a href="#">Kelas 11</a></li>
                   <li><a href="#">Kelas 12</a></li>
                 </ul>
-              <li><a href="testimonials.html">Novel</a></li>
+              <li><a href="novel">Novel</a></li>
             </ul>
           </li>
 
           <li><a href="services.html">Pencarian</a></li>
           <li class="dropdown"><a href="#"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Pengurus</a></li>
-              <li><a href="#">Visi dan Misi</a></li>
+              <li><a href="pengurus">Pengurus</a></li>
+              <li><a href="visidanmisi">Visi dan Misi</a></li>
             </ul>
           </li>
           <li><a href="galeri">Galeri</a></li>

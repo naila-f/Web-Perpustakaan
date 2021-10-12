@@ -35,3 +35,15 @@ Route::group(['middleware' => 'auth'], function () {
 Route::get('/majalah', function () {
     return view('majalah', ["title" => "Majalah"]);
 });
+
+Route::get('/novel', function () {
+    return view('novel', ["title" => "Novel"]);
+});
+
+Route::get('/pengurus', function () {
+    return view('pengurus', ["title" => "Pengurus"]);
+});
+
+Route::get('/visidanmisi', function () {
+    return view('visi-misi', ["title" => "Visi dan Misi"]);
+});
