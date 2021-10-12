@@ -52,7 +52,7 @@
                   <li><a href="#">Kelas 12</a></li>
                 </ul>
               </li>
-              <li><a href="team.html">Kamus</a></li>
+              <li><a href="kamus">Kamus</a></li>
               <li><a href="majalah">Majalah</a></li>
               <li class="dropdown"><a href="#"><span>Modul</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>

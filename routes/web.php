@@ -47,3 +47,6 @@ Route::get('/pengurus', function () {
 Route::get('/visidanmisi', function () {
     return view('visi-misi', ["title" => "Visi dan Misi"]);
 });
+Route::get('/kamus', function () {
+    return view('kamus', ["title" => "Kamus"]);
+});
