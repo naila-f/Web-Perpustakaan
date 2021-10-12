@@ -6,9 +6,9 @@ body {
     background: #fbfbfb;
     border-radius: 8px;
     box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
-    height: 410px;
+    height: 480px;
     margin: 6rem auto 9.4rem auto;
-    width: 329px;
+    width: 340px;
 }
 .card-register {
    background: #fbfbfb;
@@ -31,7 +31,8 @@ body {
     margin: 0.5rem auto 0 auto;
     width: 89px;
   }
-  
+ 
+
   .submit {
    background: -webkit-linear-gradient(right, #6f42c1, #e83e8c);
    border: none;
@@ -41,13 +42,31 @@ body {
    color: white;
    font-family: "Raleway SemiBold", sans-serif;
    height: 35px;
-   margin: 8px 70px;
+   margin: 10px 85px;
+   margin-top: 8px;
+   transition: 0.25s;
+   width: 150px;
+} 
+.submitregister {
+   background: -webkit-linear-gradient(right, #6f42c1, #e83e8c);
+   border: none;
+   border-radius: 21px;
+   box-shadow: 0px 1px 8px #6610f2;
+   cursor: pointer;
+   color: white;
+   font-family: "Raleway SemiBold", sans-serif;
+   height: 35px;
+   margin: 10px 75px;
    margin-top: 8px;
    transition: 0.25s;
    width: 150px;
 
 } 
 .submit:hover {
+   background: -webkit-linear-gradient(right, #3b108a, #9e1254);
+   box-shadow: 0px 1px 8px #6610f2;
+}
+.submitregister:hover {
    background: -webkit-linear-gradient(right, #3b108a, #9e1254);
    box-shadow: 0px 1px 8px #6610f2;
 }

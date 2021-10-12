@@ -51,7 +51,7 @@
                         <input type="password" name="password" class="form-control" placeholder="Password">
                     </div>
                 </div>
-                <div class="card-footer">
+                <div class="card-footerlogin">
                     <button type="submit" class="submit">Log In</button>
                     <p class="text-center">Belum punya akun? <a href="{{ route('register') }}">Register</a> sekarang!</p>
                 </div>

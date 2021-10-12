@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="card-footer">
-                    <button type="submit" class="submit">Register</button>
+                    <button type="submit" class="submitregister">Register</button>
                     <p class="text-center">Sudah punya akun? <a href="{{ route('login') }}">Login</a> sekarang!</p>
                 </div>
                 </form>
