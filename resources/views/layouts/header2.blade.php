@@ -53,7 +53,7 @@
                 </ul>
               </li>
               <li><a href="team.html">Kamus</a></li>
-              <li><a href="testimonials.html">Majalah</a></li>
+              <li><a href="majalah">Majalah</a></li>
               <li class="dropdown"><a href="#"><span>Modul</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Kelas 10</a></li>

@@ -31,3 +31,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
 });
+
+Route::get('/majalah', function () {
+    return view('majalah', ["title" => "Majalah"]);
+});

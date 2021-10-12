@@ -92,7 +92,7 @@ h1, h2, h3, h4, h5, h6 {
 # Navigation Menu
 --------------------------------------------------------------*/
 /**
-* Desktop Navigation 
+* Desktop Navigation
 */
 .navbar {
   padding: 0;
@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #556270;
@@ -854,6 +854,9 @@ section {
 .team .member .social a + a {
   margin-left: 8px;
 }
+.btn{border:none !important;border-radius: 0;padding: 4px 8px; margin: 20px;}
+.btn-default{background:#6b6a67;box-shadow: none !important;color: #fff;}
+.btn-default:hover, .btn-default:focus, .btn-default.focus, .btn-default:active, .btn-default.active{box-shadow: none !important;background:#585036;color: #fff;outline: none !important;}
 
 /*--------------------------------------------------------------
 # Our Skills
