@@ -54,3 +54,7 @@ Route::get('/kamus', function () {
 Route::get('/mk_10', function () {
     return view('mk_10', ["title" => "Modul Kelas 10"]);
 });
+
+Route::get('/mk_11', function () {
+    return view('mk_11', ["title" => "Modul Kelas 11"]);
+});
