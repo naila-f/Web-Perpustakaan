@@ -56,7 +56,7 @@
               <li><a href="majalah">Majalah</a></li>
               <li class="dropdown"><a href="#"><span>Modul</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Kelas 10</a></li>
+                  <li><a href="mk_10">Kelas 10</a></li>
                   <li><a href="#">Kelas 11</a></li>
                   <li><a href="#">Kelas 12</a></li>
                 </ul>

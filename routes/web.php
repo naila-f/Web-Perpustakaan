@@ -50,3 +50,7 @@ Route::get('/visidanmisi', function () {
 Route::get('/kamus', function () {
     return view('kamus', ["title" => "Kamus"]);
 });
+
+Route::get('/mk_10', function () {
+    return view('mk_10', ["title" => "Modul Kelas 10"]);
+});
