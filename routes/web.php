@@ -50,11 +50,16 @@ Route::get('/visidanmisi', function () {
 Route::get('/kamus', function () {
     return view('kamus', ["title" => "Kamus"]);
 });
-
+Route::get('/galeri', function () {
+    return view('galeri', ["title" => "Galeri"]);
+});
 Route::get('/mk_10', function () {
     return view('mk_10', ["title" => "Modul Kelas 10"]);
 });
 
 Route::get('/mk_11', function () {
     return view('mk_11', ["title" => "Modul Kelas 11"]);
+});
+Route::get('/buku_12', function () {
+    return view('buku_12', ["title" => "Buku Kelas 12"]);
 });

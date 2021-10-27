@@ -49,7 +49,7 @@
                 <ul>
                   <li><a href="#">Kelas 10</a></li>
                   <li><a href="#">Kelas 11</a></li>
-                  <li><a href="#">Kelas 12</a></li>
+                  <li><a href="buku_12">Kelas 12</a></li>
                 </ul>
               </li>
               <li><a href="kamus">Kamus</a></li>
@@ -72,7 +72,7 @@
             </ul>
           </li>
           <li><a href="galeri">Galeri</a></li>
-          <li><a href="blog.html">Survey</a></li>
+          <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQkxLJfZuLeLHAeMfWIW_y3ysENmtPBNTN5hUPs_EG77Ju5g/viewform">Survey</a></li>
           <li><a href="contact.html">Kontak Kami</a></li>
           <li><a href="{{ route('logout') }}"  class="getstarted">Logout</a></li>
         </ul>
