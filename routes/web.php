@@ -56,9 +56,11 @@ Route::get('/galeri', function () {
 Route::get('/mk_10', function () {
     return view('mk_10', ["title" => "Modul Kelas 10"]);
 });
-
 Route::get('/mk_11', function () {
     return view('mk_11', ["title" => "Modul Kelas 11"]);
+});
+Route::get('/mk_12', function () {
+    return view('mk_12', ["title" => "Modul Kelas 12"]);
 });
 Route::get('/buku_12', function () {
     return view('buku_12', ["title" => "Buku Kelas 12"]);

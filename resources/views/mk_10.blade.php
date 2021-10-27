@@ -11,7 +11,7 @@
         <h2>MODUL KELAS 10</h2>
         <ol>
           <li><a href="home">Home</a></li>
-          <li>Modul Kelas 10</li>
+          <li>Modul</li>
         </ol>
       </div>
 

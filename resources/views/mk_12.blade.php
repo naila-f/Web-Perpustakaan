@@ -9,7 +9,7 @@
           <div class="d-flex justify-content-between align-items-center">
             <h2>Modul Kelas 12</h2>
             <ol>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="home">Home</a></li>
               <li>Modul</li>
             </ol>
           </div>
@@ -142,7 +142,7 @@
               </div>
             </div>
           </div>
-        
+
           <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/BIG1.png" class="img-fluid" alt=""></div>
@@ -217,7 +217,7 @@
               </div>
             </div>
           </div>
-        
+
           <div class="col-lg-6 mt-4">
             <div class="member d-flex align-items-start">
              <div class="pic"><img src="images/img/BIO1.png" class="img-fluid" alt=""></div>
@@ -274,7 +274,7 @@
                     </div>
                   </div>
                 </div>
-              </div>      
+              </div>
             <div class="col-lg-6 mt-4">
                 <div class="member d-flex align-items-start">
                   <div class="pic"><img src="images/img/FIS1.png" class="img-fluid" alt=""></div>
@@ -302,8 +302,8 @@
                     </div>
                   </div>
                 </div>
-              </div>   
-              
+              </div>
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/FIS1.png" class="img-fluid" alt=""></div>
@@ -317,8 +317,8 @@
                     </div>
                   </div>
                 </div>
-              </div>    
-              
+              </div>
+
               <div class="col-lg-6 mt-4">
                 <div class="member d-flex align-items-start">
                   <div class="pic"><img src="images/img/GEO1.png" class="img-fluid" alt=""></div>
@@ -361,7 +361,7 @@
                         </div>
                       </div>
                     </div>
-                    
+
                     <div class="col-lg-6 mt-4">
                       <div class="member d-flex align-items-start">
                         <div class="pic"><img src="images/img/GEO1.png" class="img-fluid" alt=""></div>
@@ -375,7 +375,7 @@
                             </div>
                           </div>
                         </div>
-                      </div>            
+                      </div>
 
 
         </div>
