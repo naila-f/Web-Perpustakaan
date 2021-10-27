@@ -58,7 +58,7 @@
                 <ul>
                   <li><a href="mk_10">Kelas 10</a></li>
                   <li><a href="mk_11">Kelas 11</a></li>
-                  <li><a href="#">Kelas 12</a></li>
+                  <li><a href="mk_12">Kelas 12</a></li>
                 </ul>
               <li><a href="novel">Novel</a></li>
             </ul>
