@@ -755,12 +755,11 @@
                         <p>Penyusun : Fauziah Asri Latifah, S.Si, M.Pd</p>
                         <div class="social">
                       <a href="https://drive.google.com/file/d/1j3qiG4lytC0_rEm7J-tosy9gQ6tUEDWK/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                    </div>
                   </div>
-              </div>
-            </div>
-          </div>                                                                                                                               
-        </div>
-        
+                </div>
+              </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/PKWU1.png" class="img-fluid" alt=""></div>
@@ -774,8 +773,7 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
 
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
@@ -787,11 +785,10 @@
                     <p>Penyusun : ROSSA VINI ANGGALIA,. S.P., M.M.</p>
                     <div class="social">
                   <a href="https://drive.google.com/file/d/1j041nhMMEXKNMOQMz69TrprbAm4N5vQw/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
-                </div>
+               </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
 
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
@@ -806,8 +803,7 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
 
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
@@ -822,8 +818,7 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
 
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
@@ -838,10 +833,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
 
-  
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/PPKN1.png" class="img-fluid" alt=""></div>
@@ -855,8 +848,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>             
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEJ1.png" class="img-fluid" alt=""></div>
@@ -870,8 +863,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>  
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEJ1.png" class="img-fluid" alt=""></div>
@@ -886,7 +879,7 @@
               </div>
             </div>
           </div>                                                                                                                               
-        </div>
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEJ1.png" class="img-fluid" alt=""></div>
@@ -900,8 +893,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEJ1.png" class="img-fluid" alt=""></div>
@@ -915,8 +908,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEJ1.png" class="img-fluid" alt=""></div>
@@ -930,8 +923,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEI1.png" class="img-fluid" alt=""></div>
@@ -945,8 +938,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEI1.png" class="img-fluid" alt=""></div>
@@ -960,8 +953,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEI1.png" class="img-fluid" alt=""></div>
@@ -975,8 +968,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEI1.png" class="img-fluid" alt=""></div>
@@ -990,8 +983,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SEI1.png" class="img-fluid" alt=""></div>
@@ -1005,8 +998,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SBM1.png" class="img-fluid" alt=""></div>
@@ -1020,8 +1013,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SBM1.png" class="img-fluid" alt=""></div>
@@ -1035,8 +1028,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SBM1.png" class="img-fluid" alt=""></div>
@@ -1050,8 +1043,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SBM1.png" class="img-fluid" alt=""></div>
@@ -1065,8 +1058,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SBR.png" class="img-fluid" alt=""></div>
@@ -1080,8 +1073,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SBR.png" class="img-fluid" alt=""></div>
@@ -1095,8 +1088,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SBR.png" class="img-fluid" alt=""></div>
@@ -1110,8 +1103,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SBR.png" class="img-fluid" alt=""></div>
@@ -1125,8 +1118,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SOSIO.png" class="img-fluid" alt=""></div>
@@ -1140,8 +1133,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SOSIO.png" class="img-fluid" alt=""></div>
@@ -1152,11 +1145,11 @@
                     <p>Penyusun : Dr. Hj. Widiningsih, M.Pd.</p>
                     <div class="social">
                   <a href="https://drive.google.com/file/d/1a9EBDeGgHq3TRYYg_uSQp0JiGSrn1FcS/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
-                </div>
+               </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SOSIO.png" class="img-fluid" alt=""></div>
@@ -1170,8 +1163,8 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SOSIO.png" class="img-fluid" alt=""></div>
@@ -1182,11 +1175,11 @@
                     <p>Penyusun : Dr. Hj. Widiningsih, M.Pd.</p>
                     <div class="social">
                   <a href="https://drive.google.com/file/d/1S159-6LoWzv1la9_EyMnP2cWmjI4aTjK/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
-                </div>
+               </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
+
         <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
             <div class="pic"><img src="images/img/SOSIO.png" class="img-fluid" alt=""></div>
@@ -1200,8 +1193,7 @@
                 </div>
               </div>
             </div>
-          </div>                                                                                                                               
-        </div>
+          </div>     
       </div>
     </section><!-- End Team Section -->
 
