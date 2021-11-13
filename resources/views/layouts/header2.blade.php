@@ -48,7 +48,7 @@
               <li class="dropdown"><a href="#"><span>Buku</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="#">Kelas 10</a></li>
-                  <li><a href="#">Kelas 11</a></li>
+                  <li><a href="buku_11">Kelas 11</a></li>
                   <li><a href="buku_12">Kelas 12</a></li>
                 </ul>
               </li>

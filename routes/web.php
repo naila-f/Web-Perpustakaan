@@ -65,6 +65,9 @@ Route::get('/mk_12', function () {
 Route::get('/buku_12', function () {
     return view('buku_12', ["title" => "Buku Kelas 12"]);
 });
+Route::get('/buku_11', function () {
+    return view('buku_11', ["title" => "Buku Kelas 11"]);
+});
 Route::get('/kontak', function () {
     return view('kontak', ["title" => "Kontak"]);
 });
