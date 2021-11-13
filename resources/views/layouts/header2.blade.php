@@ -73,7 +73,7 @@
           </li>
           <li><a href="galeri">Galeri</a></li>
           <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQkxLJfZuLeLHAeMfWIW_y3ysENmtPBNTN5hUPs_EG77Ju5g/viewform">Survey</a></li>
-          <li><a href="contact.html">Kontak Kami</a></li>
+          <li><a href="kontak">Kontak</a></li>
           <li><a href="{{ route('logout') }}"  class="getstarted">Logout</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

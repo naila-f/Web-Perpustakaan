@@ -34,11 +34,11 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Galeri</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Daftar Hadir</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Survey</a></li>
-            
+
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter"> 
+          <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Social Media</h4>
             <div class="social-links mt-3">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
@@ -55,7 +55,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>PERPUSTAKAAN</span></strong> Kelompok 4
+        &copy; Copyright <strong><span>PERPUSTAKAAN</span></strong> Kelompok 4 | PTI 2019
       </div>
     </div>
   </footer><!-- End Footer -->
