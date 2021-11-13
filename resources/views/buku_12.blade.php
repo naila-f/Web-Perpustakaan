@@ -118,6 +118,100 @@
             </div>
           </div>
 
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/12/Ekonomi_XIi.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ekonomi<br>
+                Untuk Kelas XII SMA/MA</h4>
+                <span>Tahun : 2009</span>
+                <p>Penulis : Mimin Nur A., Hartatik Fitria R<br>
+                    Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1M_c8oI54c-i4O3IqtEfKT6goq1icK4gm/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/12/Ekonomi XIi.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+              <h4>Membuka Cakrawala Ekonomi<br>
+                Untuk Kelas XII SMA/MA</h4>
+                <span>Tahun : 2009</span>
+                <p>Penulis :<br>
+                Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1NR3dz2w2GBrS0PIwBNREPRZT8OvK1uqC/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/12/Sosio XII.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+              <h4>Sosiologi Kontekstual <br>
+                Untuk SMA/MA Kelas XII</h4>
+                <span>Tahun : 2009</span>
+                <p>Penulis : Atik Catur Budiati<br>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/18vk5e1yTV344R3lKMPn5IluRdomBibc-/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/12/Sosio_XII.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sosiologi<br>
+                Untuk SMA/MA Kelas XII</h4>
+                <span>Tahun : 2009</span>
+                <p>Penyusun : Ruswanto <br>
+                  Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1h11qEy7X351STDn88NbC_ALUXXIlVenk/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/12/Geografi XII.jfif" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Nuansa Geografi 3 <br>
+                Untuk SMA/MA Kelas XII</h4>
+                <span>Tahun : 2009</span>
+                <p>Penulis : Saptanti R., Eny Wiji L, Maryadi<br>
+                Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/164ViflN-tapSAJDM5BRBaHNn7Uz5WzJ8/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/12/Geografi_XII.jfif" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Geografi<br>
+                Untuk Kelas XII SMA/MA</h4>
+                <span>Tahun : 2009</span>
+                <p>Penulis : Ani Anjayani, Tri Haryanto<br>
+                Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/12V4PpFUAn0jyGwgU_IP2qyvBQHh_G1MG/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
 
         </div>
 
