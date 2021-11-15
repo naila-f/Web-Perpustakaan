@@ -48,7 +48,7 @@
                 <h4>Foto 2</h4>
                 <p>Foto</p>
                 <div class="portfolio-links">
-                  <a href="images/galeri/ruang_belajar2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="images/galeri/ruang_belajar2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
                   <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external"> </a>
                 </div>
               </div>
