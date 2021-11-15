@@ -47,7 +47,7 @@
             <ul>
               <li class="dropdown"><a href="#"><span>Buku</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Kelas 10</a></li>
+                  <li><a href="buku_10">Kelas 10</a></li>
                   <li><a href="buku_11">Kelas 11</a></li>
                   <li><a href="buku_12">Kelas 12</a></li>
                 </ul>
@@ -64,7 +64,6 @@
             </ul>
           </li>
 
-          <li><a href="services.html">Pencarian</a></li>
           <li class="dropdown"><a href="#"><span>Profil</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="pengurus">Pengurus</a></li>

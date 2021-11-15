@@ -3,16 +3,21 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\DaftarhadirController;
-use App\Http\Controllers\LoginAdminController;
-use App\Http\Controllers\BerandaController;
-use App\Http\Controllers\PegawaiController;
-use App\Http\Controllers\SiswaController;
-use App\Http\Controllers\SurveyController;
-use App\Http\Controllers\MajalahController;
-use App\Http\Controllers\PenulisController;
-use App\Http\Controllers\PenerbitController;
+use App\Http\Controllers\JenisController;
+use App\Http\Controllers\KamusController;
+use App\Http\Controllers\ModulController;
 use App\Http\Controllers\NovelController;
+use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\SurveyController;
+use App\Http\Controllers\BerandaController;
+use App\Http\Controllers\MajalahController;
+use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\PenulisController;
+use App\Http\Controllers\KategoriController;
+use App\Http\Controllers\PenerbitController;
+use App\Http\Controllers\LoginAdminController;
+use App\Http\Controllers\DaftarhadirController;
 
 /*
 |--------------------------------------------------------------------------
@@ -154,6 +159,46 @@ Route::get('/edit-novel/{id}', [NovelController::class, 'edit'])->name('edit-nov
 Route::post('/update-novel/{id}', [NovelController::class, 'update'])->name('update-novel');
 Route::get('/delete-novel/{id}', [NovelController::class, 'destroy'])->name('delete-novel');
 Route::get('/cetak-novel', [NovelController::class, 'cetakNovel'])->name('cetak-novel');
+
+Route::get('/modul', [ModulController::class, 'index'])->name('modul');
+Route::get('/create-modul', [ModulController::class, 'create'])->name('tambah-modul');
+Route::post('/simpan-modul', [ModulController::class, 'store'])->name('simpan-modul');
+Route::get('/edit-modul/{id}', [ModulController::class, 'edit'])->name('edit-modul');
+Route::post('/update-modul/{id}', [ModulController::class, 'update'])->name('update-modul');
+Route::get('/delete-modul/{id}', [ModulController::class, 'destroy'])->name('delete-modul');
+Route::get('/cetak-modul', [ModulController::class, 'cetakModul'])->name('cetak-modul');
+
+Route::get('/kategori', [KategoriController::class, 'index'])->name('kategori');
+Route::get('/create-kategori', [KategoriController::class, 'create'])->name('tambah-kategori');
+Route::post('/simpan-kategori', [KategoriController::class, 'store'])->name('simpan-kategori');
+Route::get('/edit-kategori/{id}', [KategoriController::class, 'edit'])->name('edit-kategori');
+Route::post('/update-kategori/{id}', [KategoriController::class, 'update'])->name('update-kategori');
+Route::get('/delete-kategori/{id}', [KategoriController::class, 'destroy'])->name('delete-kategori');
+Route::get('/cetak-kategori', [KategoriController::class, 'cetakKategori'])->name('cetak-kategori');
+
+Route::get('/jenis', [JenisController::class, 'index'])->name('jenis');
+Route::get('/create-jenis', [JenisController::class, 'create'])->name('tambah-jenis');
+Route::post('/simpan-jenis', [JenisController::class, 'store'])->name('simpan-jenis');
+Route::get('/edit-jenis/{id}', [JenisController::class, 'edit'])->name('edit-jenis');
+Route::post('/update-jenis/{id}', [JenisController::class, 'update'])->name('update-jenis');
+Route::get('/delete-jenis/{id}', [JenisController::class, 'destroy'])->name('delete-jenis');
+Route::get('/cetak-jenis', [JenisController::class, 'cetakJenis'])->name('cetak-jenis');
+
+Route::get('/kamus', [KamusController::class, 'index'])->name('kamus');
+Route::get('/create-kamus', [KamusController::class, 'create'])->name('tambah-kamus');
+Route::post('/simpan-kamus', [KamusController::class, 'store'])->name('simpan-kamus');
+Route::get('/edit-kamus/{id}', [KamusController::class, 'edit'])->name('edit-kamus');
+Route::post('/update-kamus/{id}', [KamusController::class, 'update'])->name('update-kamus');
+Route::get('/delete-kamus/{id}', [KamusController::class, 'destroy'])->name('delete-kamus');
+Route::get('/cetak-kamus', [KamusController::class, 'cetakKamus'])->name('cetak-kamus');
+
+Route::get('/berita', [BeritaController::class, 'index'])->name('berita');
+Route::get('/create-berita', [BeritaController::class, 'create'])->name('tambah-berita');
+Route::post('/simpan-berita', [BeritaController::class, 'store'])->name('simpan-berita');
+Route::get('/edit-berita/{id}', [BeritaController::class, 'edit'])->name('edit-berita');
+Route::post('/update-berita/{id}', [BeritaController::class, 'update'])->name('update-berita');
+Route::get('/delete-berita/{id}', [BeritaController::class, 'destroy'])->name('delete-berita');
+Route::get('/cetak-berita', [BeritaController::class, 'cetakBerita'])->name('cetak-berita');
 
 // Route::get('/login-admin', [LoginAdminController::class, 'halamanlogin'])->name('login');
 // Route::get('/registrasi-admin', [LoginAdminController::class, 'halamanregistrasi'])->name('registrasi');

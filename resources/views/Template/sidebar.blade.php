@@ -76,6 +76,36 @@
                 </a>
               </li>
               <li class="nav-item">
+                <a href="{{ route('berita') }}" class="nav-link">
+                  <i class="fas fa-users nav-icon green"></i>
+                  <p>Berita</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('jenis') }}" class="nav-link">
+                  <i class="fas fa-users nav-icon green"></i>
+                  <p>Jenis</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('kategori') }}" class="nav-link">
+                  <i class="fas fa-users nav-icon green"></i>
+                  <p>Kategori</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('kamus') }}" class="nav-link">
+                  <i class="fas fa-users nav-icon green"></i>
+                  <p>Kamus</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('modul') }}" class="nav-link">
+                  <i class="fas fa-users nav-icon green"></i>
+                  <p>Modul</p>
+                </a>
+              </li>
+              <li class="nav-item">
                 <a href="{{ route('majalah') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Majalah</p>
