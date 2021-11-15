@@ -213,7 +213,7 @@
 
           <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
-            <div class="pic"><img src="images/buku/11/SB1.jfif" class="img-fluid" alt=""></div>
+            <div class="pic"><img src="images/buku/11/SEJ1.jfif" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Sejarah Indonesia<br>
                     Semester 1</h4>
@@ -229,7 +229,7 @@
 
           <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
-            <div class="pic"><img src="images/buku/11/SB2.jpg" class="img-fluid" alt=""></div>
+            <div class="pic"><img src="images/buku/11/SEJ2.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
                 <h4>Sejarah Indonesia<br>
                 Semester 2</h4>
@@ -238,6 +238,102 @@
                 Jakarta</p>
                 <div class="social">
                   <a href="https://drive.google.com/file/d/1nDZgbd1i_vdEDNio6DwZv7XqePzfUkZn/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/11/Geo XI.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Geografi 2<br>
+                Untuk SMA dan MA Kelas XI</h4>
+                <span>Tahun : 2009</span>
+                <p>Penyusun : Nurmala Dewi<br>
+                  Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1i04WeCA_NHGQFhSSJE1otpOT6EtP6aZB/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/11/Geo_XI.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Geografi<br>
+                Untuk SMA/ MA Kelas XI </h4>
+                <span>Tahun : 2009</span>
+                <p>Penyusun : Dibyo Soegimo, Ruswanto<br>
+                Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1W-_fhAw23C0jM1u5d8pXxR_UdlwniFQQ/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/11/Sosio XI.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sosiologi 2 <br>
+                Untuk SMA dan MA Kelas XI</h4>
+                <span>Tahun : 2009</span>
+                <p>Penyusun: Bondet Wrahatnala<br>
+                  Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1L0lycb9zGSqcTS59Acha45VvRE0-QAVA/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/11/Sosio2.jfif" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Sosiologi 2<br>
+                Untuk SMA/ MA Kelas XI </h4>
+                <span>Tahun : 2009</span>
+                <p>Penulis : Bagja Waluya<br>
+                Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1NMuVG6xJOp4L8n8c8UFYfYpT1WOH1wmJ/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/11/Eko1.jfif" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Membuka Cakrawala Ekonomi 2<br>
+                Untuk Kelas XI SMA/MA</h4>
+                <span>Tahun : 2009</span>
+                <p>Penulis: Imamul Arifin, Giana Hadi Wagiana<br>
+                  Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/19gyPYdC43cnBCyX2fJEklc_cQEdLlGzn/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="images/buku/11/Eko XI.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ekonomi 2<br>
+                Untuk SMA dan MA Kelas XI</h4>
+                <span>Tahun : 2009</span>
+                <p>Penulis : Yuli Eko<br>
+                Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1GeIh0vzpiErFwqSmvrHDdNB1LrXuG1sR/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
                 </div>
               </div>
             </div>
