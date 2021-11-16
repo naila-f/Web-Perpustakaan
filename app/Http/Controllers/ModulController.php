@@ -14,7 +14,7 @@ class ModulController extends Controller
     public function index()
     {
         $dtModul = Modul::paginate(3);
-        return view('Modul.modul', compact('dtModul'));
+        return view('Modul.index-modul', compact('dtModul'));
     }
     public function cetakModul()
     {
@@ -44,12 +44,12 @@ class ModulController extends Controller
          $validateData = $request->validate([
             'judul' => 'required',
             'tahun_terbit' => 'required',
-            'penulis' => 'required' 
+            'penulis' => 'required'
         ]);
         Modul::create($validateData);
-        return redirect('modul')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-modul')->with('toast_success', 'Data Berhasil Disimpan!');
     }
-    
+
 
     /**
      * Display the specified resource.
@@ -85,7 +85,7 @@ class ModulController extends Controller
     {
         $mod = Modul::findorfail($id);
         $mod->update($request->all());
-        return redirect('modul')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-modul')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

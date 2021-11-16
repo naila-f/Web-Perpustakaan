@@ -15,7 +15,7 @@ class SurveyController extends Controller
     public function index()
     {
         $dtSurvey = Survey::paginate(3);
-        return view('Survey.survey', compact('dtSurvey'));
+        return view('Survey.index-survey', compact('dtSurvey'));
     }
 
     public function cetakSurvey()
@@ -49,7 +49,7 @@ class SurveyController extends Controller
         ]);
 
         Survey::create($validateData);
-        return redirect('survey')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-survey')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -86,7 +86,7 @@ class SurveyController extends Controller
     {
         $sur = Survey::findorfail($id);
         $sur->update($request->all());
-        return redirect('survey')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-survey')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

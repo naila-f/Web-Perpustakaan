@@ -14,7 +14,7 @@ class KategoriController extends Controller
     public function index()
     {
         $dtKategori = Kategori::paginate(3);
-        return view('Kategori.kategori', compact('dtKategori'));
+        return view('Kategori.index-kategori', compact('dtKategori'));
     }
     public function cetakKategori()
     {
@@ -45,7 +45,7 @@ class KategoriController extends Controller
             'nama_kategori' => 'required'
         ]);
         Kategori::create($validateData);
-        return redirect('kategori')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-kategori')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -82,7 +82,7 @@ class KategoriController extends Controller
     {
         $kat = Kategori::findorfail($id);
         $kat->update($request->all());
-        return redirect('kategori')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-kategori')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

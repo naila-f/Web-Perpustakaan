@@ -15,7 +15,7 @@ class DaftarhadirController extends Controller
     public function index()
     {
         $dtDaftarhadir = Daftarhadir::paginate(3);
-        return view('Daftarhadir.daftarhadir', compact('dtDaftarhadir'));
+        return view('Daftarhadir.index-daftarhadir', compact('dtDaftarhadir'));
     }
 
     public function cetakDaftarhadir()
@@ -49,7 +49,7 @@ class DaftarhadirController extends Controller
         ]);
 
         Daftarhadir::create($validateData);
-        return redirect('daftarhadir')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-daftarhadir')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -86,7 +86,7 @@ class DaftarhadirController extends Controller
     {
         $daf = Daftarhadir::findorfail($id);
         $daf->update($request->all());
-        return redirect('daftarhadir')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-daftarhadir')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

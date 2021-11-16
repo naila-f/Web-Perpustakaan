@@ -15,7 +15,7 @@ class PenulisController extends Controller
     public function index()
     {
         $dtPenulis = Penulis::paginate(3);
-        return view('Penulis.penulis', compact('dtPenulis'));
+        return view('Penulis.index-penulis', compact('dtPenulis'));
     }
 
     public function cetakPenulis()
@@ -49,7 +49,7 @@ class PenulisController extends Controller
         ]);
 
         Penulis::create($validateData);
-        return redirect('penulis')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-penulis')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -86,7 +86,7 @@ class PenulisController extends Controller
     {
         $pen = Penulis::findorfail($id);
         $pen->update($request->all());
-        return redirect('penulis')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-penulis')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

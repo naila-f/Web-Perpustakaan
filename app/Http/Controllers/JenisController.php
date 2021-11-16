@@ -14,7 +14,7 @@ class JenisController extends Controller
     public function index()
     {
         $dtJenis = Jenis::paginate(3);
-        return view('Jenis.jenis', compact('dtJenis'));
+        return view('Jenis.index-jenis', compact('dtJenis'));
     }
     public function cetakJenis()
     {
@@ -45,7 +45,7 @@ class JenisController extends Controller
             'nama_jenis' => 'required'
         ]);
         Jenis::create($validateData);
-        return redirect('jenis')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-jenis')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -82,7 +82,7 @@ class JenisController extends Controller
     {
         $jen = Jenis::findorfail($id);
         $jen->update($request->all());
-        return redirect('jenis')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-jenis')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

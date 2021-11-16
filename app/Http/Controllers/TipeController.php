@@ -1,26 +1,27 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Models\Kamus;
+use App\Models\Tipe;
 use Illuminate\Http\Request;
 
-class KamusController extends Controller
+class TipeController extends Controller
 {
-    /**
+   /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-        $dtKamus = Kamus::paginate(3);
-        return view('Kamus.index-kamus', compact('dtKamus'));
+        $dtTipe = Tipe::paginate(3);
+        return view('Tipe.index-tipe', compact('dtTipe'));
     }
-    public function cetakKamus()
+    public function cetakTipe()
     {
-        $dtCetakKamus = Kamus::get();
-        return view('Kamus.cetak-kamus', compact('dtCetakKamus'));
+        $dtCetakTipe = Tipe::get();
+        return view('Tipe.cetak-tipe', compact('dtCetakTipe'));
     }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -28,7 +29,7 @@ class KamusController extends Controller
      */
     public function create()
     {
-        return view('Kamus.create-kamus');
+        return view('Tipe.create-tipe');
     }
 
     /**
@@ -41,14 +42,13 @@ class KamusController extends Controller
     {
          // dd($request->all());
          $validateData = $request->validate([
-            'judul' => 'required',
-            'tahun_terbit' => 'required',
-            'penulis' => 'required',
-            'penerbit' => 'required'
+            'kode_tipe' => 'required|unique:tipe,kode_tipe',
+            'tipe' => 'required'
         ]);
-        Kamus::create($validateData);
-        return redirect('index-kamus')->with('toast_success', 'Data Berhasil Disimpan!');
+        Tipe::create($validateData);
+        return redirect('index-tipe')->with('toast_success', 'Data Berhasil Disimpan!');
     }
+
 
     /**
      * Display the specified resource.
@@ -69,8 +69,8 @@ class KamusController extends Controller
      */
     public function edit($id)
     {
-        $kam = Kamus::findorfail($id);
-        return view('Kamus.edit-kamus', compact('kam'));
+        $tip = Tipe::findorfail($id);
+        return view('Tipe.edit-tipe', compact('tip'));
     }
 
     /**
@@ -82,9 +82,9 @@ class KamusController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $kam = Kamus::findorfail($id);
-        $kam->update($request->all());
-        return redirect('index-kamus')->with('toast_success', 'Data Berhasil Update!');
+        $tip = Tipe::findorfail($id);
+        $tip->update($request->all());
+        return redirect('index-tipe')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**
@@ -95,8 +95,8 @@ class KamusController extends Controller
      */
     public function destroy($id)
     {
-        $kam = Kamus::findorfail($id);
-        $kam->delete();
+        $tip = Tipe::findorfail($id);
+        $tip->delete();
         return back()->with('info', 'Data Berhasil Dihapus!');
     }
 }

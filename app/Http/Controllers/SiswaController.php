@@ -15,7 +15,7 @@ class SiswaController extends Controller
     public function index()
     {
         $dtSiswa = Siswa::paginate(3);
-        return view('Siswa.siswa', compact('dtSiswa'));
+        return view('Siswa.index-siswa', compact('dtSiswa'));
     }
 
     public function cetakSiswa()
@@ -51,7 +51,7 @@ class SiswaController extends Controller
         ]);
 
         Siswa::create($validateData);
-        return redirect('siswa')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-siswa')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -88,7 +88,7 @@ class SiswaController extends Controller
     {
         $sis = Siswa::findorfail($id);
         $sis->update($request->all());
-        return redirect('siswa')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-siswa')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

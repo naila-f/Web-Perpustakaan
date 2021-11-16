@@ -14,7 +14,7 @@ class BeritaController extends Controller
     public function index()
     {
         $dtBerita = Berita::paginate(3);
-        return view('Berita.berita', compact('dtBerita'));
+        return view('Berita.index-berita', compact('dtBerita'));
     }
     public function cetakBerita()
     {
@@ -45,12 +45,12 @@ class BeritaController extends Controller
             'judul' => 'required',
             'author' => 'required',
             'resume' => 'required',
-            'publised_at' => 'required' 
+            'publised_at' => 'required'
         ]);
         Berita::create($validateData);
-        return redirect('berita')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-berita')->with('toast_success', 'Data Berhasil Disimpan!');
     }
-    
+
 
     /**
      * Display the specified resource.
@@ -86,7 +86,7 @@ class BeritaController extends Controller
     {
         $ber = Berita::findorfail($id);
         $ber->update($request->all());
-        return redirect('berita')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-berita')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

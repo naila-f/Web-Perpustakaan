@@ -19,6 +19,6 @@ class BerandaController extends Controller
 
     public function kontak_admin()
     {
-        return view('Dashboard.kontak');
+        return view('Dashboard.kontak-admin');
     }
 }

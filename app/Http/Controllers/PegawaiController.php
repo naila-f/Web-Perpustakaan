@@ -15,7 +15,7 @@ class PegawaiController extends Controller
     public function index()
     {
         $dtPegawai = Pegawai::paginate(3);
-        return view('Pegawai.pegawai', compact('dtPegawai'));
+        return view('Pegawai.index-pegawai', compact('dtPegawai'));
     }
 
     public function cetakPegawai()
@@ -52,7 +52,7 @@ class PegawaiController extends Controller
         ]);
 
         Pegawai::create($validateData);
-        return redirect('pegawai')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-pegawai')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -89,7 +89,7 @@ class PegawaiController extends Controller
     {
         $peg = Pegawai::findorfail($id);
         $peg->update($request->all());
-        return redirect('pegawai')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-pegawai')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

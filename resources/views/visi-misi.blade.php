@@ -14,7 +14,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>VISI & MISI</h2>
           <ol>
-            <li><a href="index.html">Profil</a></li>
+            <li><a href="home">Home</a></li>
             <li>Visi dan Misi</li>
           </ol>
         </div>
@@ -71,7 +71,7 @@
           <p> 6. Terwujudnya manajemen dan struktur organisasi yang tepat untuk mencapai tujuan dan sasaran perpustakaan.</p>
           <p> 7. Menciptakan suatu lingkungan, peluang dan kondisi yang tepat untuk memungkinkan staf dapat mencapai dan memelihara kinerja yang baik untuk </p>
           <p style="text-indent: 15px;">meningkatkan sumber dayanya.</p>
-        
+
           </div>
         </div>
 
@@ -79,7 +79,7 @@
       </section><!-- End About Section -->
     </main><!-- End #main -->
 
-    
-    
+
+
   @endsection
 @endsection

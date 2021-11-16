@@ -52,85 +52,97 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('pegawai') }}" class="nav-link">
+                <a href="{{ route('index-pegawai') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Pegawai</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('siswa') }}" class="nav-link">
+                <a href="{{ route('index-siswa') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Siswa</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('survey') }}" class="nav-link">
+                <a href="{{ route('index-survey') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Survey</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('daftarhadir') }}" class="nav-link">
+                <a href="{{ route('index-daftarhadir') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Daftar Hadir</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('berita') }}" class="nav-link">
+                <a href="{{ route('index-berita') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Berita</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('jenis') }}" class="nav-link">
+                <a href="{{ route('index-jenis') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Jenis</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('kategori') }}" class="nav-link">
+                <a href="{{ route('index-kategori') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Kategori</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('kamus') }}" class="nav-link">
+                <a href="{{ route('index-kamus') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Kamus</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('modul') }}" class="nav-link">
+                <a href="{{ route('index-modul') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Modul</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('majalah') }}" class="nav-link">
+                <a href="{{ route('index-majalah') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Majalah</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('penulis') }}" class="nav-link">
+                <a href="{{ route('index-penulis') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Penulis</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('penerbit') }}" class="nav-link">
+                <a href="{{ route('index-penerbit') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Penerbit</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="{{ route('novel') }}" class="nav-link">
+                <a href="{{ route('index-novel') }}" class="nav-link">
                   <i class="fas fa-users nav-icon green"></i>
                   <p>Novel</p>
                 </a>
               </li>
+              <li class="nav-item">
+                <a href="{{ route('index-buku') }}" class="nav-link">
+                  <i class="fas fa-users nav-icon green"></i>
+                  <p>Buku</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="{{ route('index-tipe') }}" class="nav-link">
+                  <i class="fas fa-users nav-icon green"></i>
+                  <p>Tipe</p>
+                </a>
+              </li>
                 <li class="nav-item">
-                    <a href="{{ route('logout') }}" class="nav-link">
+                    <a href="{{ route('logout-admin') }}" class="nav-link">
                         <i class="fas fa-sign-out-alt nav-icon red"></i>
                         <p>Logout</p>
                     </a>

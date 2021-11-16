@@ -15,7 +15,7 @@ class MajalahController extends Controller
     public function index()
     {
         $dtMajalah = Majalah::paginate(3);
-        return view('Majalah.majalah', compact('dtMajalah'));
+        return view('Majalah.index-majalah', compact('dtMajalah'));
     }
 
     public function cetakMajalah()
@@ -49,7 +49,7 @@ class MajalahController extends Controller
         ]);
 
         Majalah::create($validateData);
-        return redirect('majalah')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-majalah')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -86,7 +86,7 @@ class MajalahController extends Controller
     {
         $maj = Majalah::findorfail($id);
         $maj->update($request->all());
-        return redirect('majalah')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-majalah')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

@@ -15,7 +15,7 @@ class NovelController extends Controller
     public function index()
     {
         $dtNovel = Novel::paginate(3);
-        return view('Novel.novel', compact('dtNovel'));
+        return view('Novel.index-novel', compact('dtNovel'));
     }
 
     public function cetakNovel()
@@ -50,7 +50,7 @@ class NovelController extends Controller
         ]);
 
         Novel::create($validateData);
-        return redirect('novel')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-novel')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -87,7 +87,7 @@ class NovelController extends Controller
     {
         $nov = Novel::findorfail($id);
         $nov->update($request->all());
-        return redirect('novel')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-novel')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

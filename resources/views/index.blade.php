@@ -66,6 +66,8 @@
 
       <ul class="nav navbar-nav">
         <li><a href="login">Login</a></li>
+        <li><a href="login-admin">Login Admin</a></li>
+
 
       </ul>
     </div><!-- Wnavbar-collapse -->

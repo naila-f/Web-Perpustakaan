@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Login </title>
+  <title>Login Admin</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -20,7 +20,7 @@
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
     <div class="card-header text-center">
-      <a href="../../index2.html" class="h1">Login</a>
+      <a href="../../index2.html" class="h1">Login Admin</a>
     </div>
     <div class="card-body">
       <p class="login-box-msg">Login</p>
@@ -57,7 +57,8 @@
         </div>
       </form>
       <p class="mb-0">
-        <a href="registrasi-admin" class="text-center">Register a new membership</a>
+        <a href="registrasi-admin" class="text-center">Register a new membership</a><br>
+        <a href="index" class="text-center">Kembali Ke Halaman Index</a>
       </p>
     </div>
     <!-- /.card-body -->

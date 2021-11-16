@@ -15,7 +15,7 @@ class PenerbitController extends Controller
     public function index()
     {
         $dtPenerbit = Penerbit::paginate(3);
-        return view('Penerbit.penerbit', compact('dtPenerbit'));
+        return view('Penerbit.index-penerbit', compact('dtPenerbit'));
     }
 
     public function cetakPenerbit()
@@ -50,7 +50,7 @@ class PenerbitController extends Controller
         ]);
 
         Penerbit::create($validateData);
-        return redirect('penerbit')->with('toast_success', 'Data Berhasil Disimpan!');
+        return redirect('index-penerbit')->with('toast_success', 'Data Berhasil Disimpan!');
     }
 
     /**
@@ -87,7 +87,7 @@ class PenerbitController extends Controller
     {
         $pener = Penerbit::findorfail($id);
         $pener->update($request->all());
-        return redirect('penerbit')->with('toast_success', 'Data Berhasil Update!');
+        return redirect('index-penerbit')->with('toast_success', 'Data Berhasil Update!');
     }
 
     /**

@@ -15,7 +15,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <h2>PENGURUS INTI PERPUSTAKAAN</h2>
           <ol>
-            <li><a href="Visi dan Misi">Profil</a></li>
+            <li><a href="home">Home</a></li>
             <li>Pengurus</li>
           </ol>
         </div>
