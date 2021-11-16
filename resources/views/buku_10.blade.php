@@ -110,7 +110,8 @@
                 <h4>Mudah dan Aktif Belajar<br>
                 Kimia</h4>
                 <span>Tahun : 2009</span>
-                <p>Penulis : Yayan Sunarya dan Agus Setiabudi<br>
+                <p>Penulis : Yayan Sunarya dan Agus 
+                  <br>Setiabudi<br>
                 Jakarta</p>
                 <div class="social">
                   <a href="https://drive.google.com/file/d/1VJ2nRPw4Cs3Dg9OEAH1MWf_WPg9XHj90/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
@@ -120,13 +121,12 @@
           </div>
 
           <div class="col-lg-6 mt-4">
-          <div class="member d-flex align-items-start">
-            <div class="pic"><img src="images/buku/10/EKO.png" class="img-fluid" alt=""></div>
+            <div class="member d-flex align-items-start">
+             <div class="pic"><img src="assetss/img/buku10/ekon1.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Ekonomi 1<br>
-                Untuk SMA/MA Kelas X</h4>
+                <h4>Ekonomi 1</h4>
                 <span>Tahun : 2009</span>
-                <p>Penulis : Mintasih Indriayu<br>
+                <p>Penyusun : Mintasih Indriayu<br>
                 Jakarta</p>
                 <div class="social">
                   <a href="https://drive.google.com/file/d/1WHVXwSY0KE_pF2UyA06eJm3dUAd5k5IZ/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
@@ -137,12 +137,11 @@
 
           <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
-            <div class="pic"><img src="images/buku/10/EKO1.png" class="img-fluid" alt=""></div>
+            <div class="pic"><img src="assetss/img/buku10/ekon2.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Ekonomi<br>
-                Untuk SMA/MA Kelas X</h4>
+                <h4>Ekonomi 1</h4>
                 <span>Tahun : 2009</span>
-                <p>Penulis : Nurcahyaningtyas<br>
+                <p>Penyusun : Nurcahyaningtyas<br>
                 Jakarta</p>
                 <div class="social">
                   <a href="https://drive.google.com/file/d/1WDpXPGQCmtrn8pvyOkbu3cMk3_jtkP9G/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
@@ -152,45 +151,12 @@
           </div>
 
           <div class="col-lg-6 mt-4">
-          <div class="member d-flex align-items-start">
-            <div class="pic"><img src="images/buku/10/GEO.png" class="img-fluid" alt=""></div>
+            <div class="member d-flex align-items-start">
+             <div class="pic"><img src="assetss/img/buku10/sosio1.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Geografi<br>
-                Untuk SMA/MA Kelas X</h4>
+                <h4>Sosiologi 1</h4>
                 <span>Tahun : 2009</span>
-                <p>Penulis : Danang Endarto, Sarwono dan Singgih Prihadi<br>
-                Jakarta</p>
-                <div class="social">
-                  <a href="https://drive.google.com/file/d/1WNPV4Mupf2yw_0JD8hYQ-fm77n8YRvHY/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-          <div class="member d-flex align-items-start">
-            <div class="pic"><img src="images/buku/10/GEO1.png" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Geografi 1<br>
-                Untuk SMA/MA Kelas X</h4>
-                <span>Tahun : 2009</span>
-                <p>Penulis : Iwan Gatot Sulistiyanto<br>
-                Jakarta</p>
-                <div class="social">
-                  <a href="https://drive.google.com/file/d/1WNPV4Mupf2yw_0JD8hYQ-fm77n8YRvHY/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-          <div class="member d-flex align-items-start">
-            <div class="pic"><img src="images/buku/10/SOSIO.png" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sosiologi<br>
-                Untuk SMA/MA Kelas X</h4>
-                <span>Tahun : 2009</span>
-                <p>Penulis : Sri Sudarmi, W. Indriyanto<br>
+                <p>Penyusun : Sri Sudarmi, W. Indriyanto<br>
                 Jakarta</p>
                 <div class="social">
                   <a href="https://drive.google.com/file/d/1W7PE2BsNWum2r-CKyqfI4Vno_KBLmR2Q/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
@@ -201,15 +167,44 @@
 
           <div class="col-lg-6 mt-4">
           <div class="member d-flex align-items-start">
-            <div class="pic"><img src="images/buku/10/SOSIO1.png" class="img-fluid" alt=""></div>
+            <div class="pic"><img src="assetss/img/buku10/sosio2.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Sosiologi 1<br>
-                Untuk SMA/MA Kelas X</h4>
+                <h4>Sosiologi 1</h4>
                 <span>Tahun : 2009</span>
-                <p>Penulis : Suhardi, Sri Sunarti<br>
+                <p>Penyusun : Suhardi, Sri Sunarti<br>
                 Jakarta</p>
                 <div class="social">
                   <a href="https://drive.google.com/file/d/1W6Bn6w86gnQcObGWQ5G2kqqZNidv1gLn/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start">
+             <div class="pic"><img src="assetss/img/buku10/geo1.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Geografi 1</h4>
+                <span>Tahun : 2009</span>
+                <p>Penyusun : Danang Endarto, Sarwono <br>
+                Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1WNPV4Mupf2yw_0JD8hYQ-fm77n8YRvHY/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4">
+          <div class="member d-flex align-items-start">
+            <div class="pic"><img src="assetss/img/buku10/geo2.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Geografi 1</h4>
+                <span>Tahun : 2009</span>
+                <p>Penyusun : Iwan Gatot Sulistiyanto <br>
+                Jakarta</p>
+                <div class="social">
+                  <a href="https://drive.google.com/file/d/1WHgeyBM2pFfw_ysziVpFEiSP__jSCDNe/view?usp=sharing"><i class="btn btn-default">Lihat</i></a>
                 </div>
               </div>
             </div>
