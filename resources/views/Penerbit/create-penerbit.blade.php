@@ -55,7 +55,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                     @enderror
                 </div>
                 <div class="form-group">
-                    <label for="inputnama" class="col-sm-2 col-form-label">Nama Majalah</label>
+                    <label for="inputnama" class="col-sm-2 col-form-label">Nama Penerbit</label>
                     <input type="text" id="nama" name="nama" class="form-control @error ('nama') is-invalid @enderror" placeholder="nama">
                     @error('nama')
                             <div class="invalid-feedback">
