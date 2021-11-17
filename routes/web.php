@@ -47,68 +47,74 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('home', [HomeController::class, 'index'])->name('home');
     Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 
+    Route::get('/majalah', function () {
+        return view('majalah', ["title" => "Majalah"]);
+    });
+
+    Route::get('/novel', function () {
+        return view('novel', ["title" => "Novel"]);
+    });
+
+    Route::get('/pengurus', function () {
+        return view('pengurus', ["title" => "Pengurus"]);
+    });
+
+    Route::get('/visidanmisi', function () {
+        return view('visi-misi', ["title" => "Visi dan Misi"]);
+    });
+    Route::get('/kamus', function () {
+        return view('kamus', ["title" => "Kamus"]);
+    });
+    Route::get('/galeri', function () {
+        return view('galeri', ["title" => "Galeri"]);
+    });
+    Route::get('/mk_10', function () {
+        return view('mk_10', ["title" => "Modul Kelas 10"]);
+    });
+    Route::get('/mk_11', function () {
+        return view('mk_11', ["title" => "Modul Kelas 11"]);
+    });
+    Route::get('/mk_12', function () {
+        return view('mk_12', ["title" => "Modul Kelas 12"]);
+    });
+    Route::get('/buku_12', function () {
+        return view('buku_12', ["title" => "Buku Kelas 12"]);
+    });
+    Route::get('/buku_11', function () {
+        return view('buku_11', ["title" => "Buku Kelas 11"]);
+    });
+    Route::get('/buku_10', function () {
+        return view('buku_10', ["title" => "Buku Kelas 11"]);
+    });
+    Route::get('/berita', function () {
+        return view('berita', ["title" => "Berita"]);
+    });
+    Route::get('/berita1', function () {
+        return view('berita1', ["title" => "Berita"]);
+    });
+    Route::get('/berita2', function () {
+        return view('berita2', ["title" => "Berita"]);
+    });
+    Route::get('/kontak', function () {
+        return view('kontak', ["title" => "Kontak"]);
+    });
 });
 
-Route::get('/majalah', function () {
-    return view('majalah', ["title" => "Majalah"]);
-});
 
-Route::get('/novel', function () {
-    return view('novel', ["title" => "Novel"]);
-});
+Route::get('/login-admin', [LoginAdminController::class, 'halamanlogin'])->name('login-admin');
+Route::get('/registrasi-admin', [LoginAdminController::class, 'halamanregistrasi'])->name('registrasi');
+Route::post('/postlogin', [LoginAdminController::class, 'postlogin'])->name('postlogin');
 
-Route::get('/pengurus', function () {
-    return view('pengurus', ["title" => "Pengurus"]);
-});
+Route::get('/registrasi', [LoginAdminController::class, 'registrasi'])->name('registrasi');
+Route::post('/simpanregistrasi', [LoginAdminController::class, 'simpanregistrasi'])->name('simpanregistrasi');
 
-Route::get('/visidanmisi', function () {
-    return view('visi-misi', ["title" => "Visi dan Misi"]);
-});
-Route::get('/kamus', function () {
-    return view('kamus', ["title" => "Kamus"]);
-});
-Route::get('/galeri', function () {
-    return view('galeri', ["title" => "Galeri"]);
-});
-Route::get('/mk_10', function () {
-    return view('mk_10', ["title" => "Modul Kelas 10"]);
-});
-Route::get('/mk_11', function () {
-    return view('mk_11', ["title" => "Modul Kelas 11"]);
-});
-Route::get('/mk_12', function () {
-    return view('mk_12', ["title" => "Modul Kelas 12"]);
-});
-Route::get('/buku_12', function () {
-    return view('buku_12', ["title" => "Buku Kelas 12"]);
-});
-Route::get('/buku_11', function () {
-    return view('buku_11', ["title" => "Buku Kelas 11"]);
-});
-Route::get('/buku_10', function () {
-    return view('buku_10', ["title" => "Buku Kelas 11"]);
-});
-Route::get('/berita', function () {
-    return view('berita', ["title" => "Berita"]);
-});
-Route::get('/berita1', function () {
-    return view('berita1', ["title" => "Berita"]);
-});
-Route::get('/berita2', function () {
-    return view('berita2', ["title" => "Berita"]);
-});
-Route::get('/kontak', function () {
-    return view('kontak', ["title" => "Kontak"]);
-});
 
 Route::group(['middleware' => 'auth'], function () {
     Route::get('/hal-admin', [BerandaController::class, 'index'])->name('hal-admin');
     Route::get('/logout-admin', [LoginAdminController::class, 'logout'])->name('logout-admin');
-});
+    Route::get('/kontak-admin', [BerandaController::class, 'kontak_admin'])->name('kontak-admin');
 
-Route::get('/kontak-admin', [BerandaController::class, 'kontak_admin'])->name('kontak');
-
-Route::get('/index-pegawai', [PegawaiController::class, 'index'])->name('index-pegawai');
+    Route::get('/index-pegawai', [PegawaiController::class, 'index'])->name('index-pegawai');
 Route::get('/create', [PegawaiController::class, 'create'])->name('tambah-pegawai');
 Route::post('/simpan', [PegawaiController::class, 'store'])->name('simpan-pegawai');
 Route::get('/edit-pegawai/{id}', [PegawaiController::class, 'edit'])->name('edit-pegawai');
@@ -227,17 +233,10 @@ Route::get('/edit-tipe/{id}', [TipeController::class, 'edit'])->name('edit-tipe'
 Route::post('/update-tipe/{id}', [TipeController::class, 'update'])->name('update-tipe');
 Route::get('/delete-tipe/{id}', [TipeController::class, 'destroy'])->name('delete-tipe');
 Route::get('/cetak-tipe', [TipeController::class, 'cetakTipe'])->name('cetak-tipe');
+});
 
-Route::get('/login-admin', [LoginAdminController::class, 'halamanlogin'])->name('login-admin');
-Route::get('/registrasi-admin', [LoginAdminController::class, 'halamanregistrasi'])->name('registrasi');
-Route::post('/postlogin', [LoginAdminController::class, 'postlogin'])->name('postlogin');
 
-Route::get('/registrasi', [LoginAdminController::class, 'registrasi'])->name('registrasi');
-Route::post('/simpanregistrasi', [LoginAdminController::class, 'simpanregistrasi'])->name('simpanregistrasi');
 
-// Route::group(['middleware' => ['auth','ceklevel:user']], function() {
-// // Route::get('home', [BerandaController::class, 'index'])->name('home');
 
-// });
 
-// Route::get('/home_user', [BerandaController::class, 'home_user'])->name('home_user');
+
