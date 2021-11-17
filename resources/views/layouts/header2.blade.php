@@ -9,6 +9,10 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
+  <!-- Favicons -->
+  <link href="images/Buku.svg" rel="icon">
+  <link href="images/Buku.svg" rel="apple-touch-icon">
+  
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -66,6 +70,7 @@
               <li><a href="visidanmisi">Visi dan Misi</a></li>
             </ul>
           </li>
+          <li><a href="berita">Berita</a></li>
           <li><a href="galeri">Galeri</a></li>
           <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdQkxLJfZuLeLHAeMfWIW_y3ysENmtPBNTN5hUPs_EG77Ju5g/viewform">Survey</a></li>
           <li><a href="kontak">Kontak</a></li>

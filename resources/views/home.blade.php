@@ -84,7 +84,7 @@
           <div class="col-md-6">
             <div class="icon-box">
               <i class="bi bi-book"></i>
-              <h4><a href="#">Buku</a></h4>
+              <h4><a href="buku_10">Buku</a></h4>
               <p>Berisi kumpulan buku mata pelajaran mulai dari kelas 10 hingga kelas 12</p>
             </div>
           </div>
@@ -92,28 +92,28 @@
             <div class="icon-box">
               <i class="bi bi-book">
               </i>
-              <h4><a href="#">Kamus</a></h4>
+              <h4><a href="kamus">Kamus</a></h4>
               <p>Berisi berbagai jenis kamus yang dapat membantu para siswa untuk belajar</p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="bi bi-book"></i>
-              <h4><a href="#">Majalah</a></h4>
+              <h4><a href="majalah">Majalah</a></h4>
               <p>Berisi Kumpulan majalah dengan berbagai edisi dan kategori yang ada seperti politik,kesehatan dan lain-lainnya</p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="bi bi-book"></i>
-              <h4><a href="#">Modul</a></h4>
+              <h4><a href="mk_10">Modul</a></h4>
               <p>Berisi kumpulan modul mulai dari kelas 10 hingga kelas 12</p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-md-0">
             <div class="icon-box">
               <i class="bi bi-book"></i>
-              <h4><a href="#">Novel</a></h4>
+              <h4><a href="novel">Novel</a></h4>
               <p>Berisi kumpulan novel dari berbagai genre</p>
             </div>
           </div>

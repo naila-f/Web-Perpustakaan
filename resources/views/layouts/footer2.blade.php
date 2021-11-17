@@ -19,21 +19,20 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Link</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Koleksi</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Pencarian</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Profil</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Kontak Kami</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="home">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="kamus">Kamus</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="majalah">Majalah</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="novel">Novel</a></li>
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Link</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Berita</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Galeri</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Daftar Hadir</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Survey</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="berita">Berita</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="galeri">Galeri</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="kontak">Kontak Kami</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="survey">Survey</a></li>
 
             </ul>
           </div>

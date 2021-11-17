@@ -88,6 +88,15 @@ Route::get('/buku_11', function () {
 Route::get('/buku_10', function () {
     return view('buku_10', ["title" => "Buku Kelas 11"]);
 });
+Route::get('/berita', function () {
+    return view('berita', ["title" => "Berita"]);
+});
+Route::get('/berita1', function () {
+    return view('berita1', ["title" => "Berita"]);
+});
+Route::get('/berita2', function () {
+    return view('berita2', ["title" => "Berita"]);
+});
 Route::get('/kontak', function () {
     return view('kontak', ["title" => "Kontak"]);
 });
